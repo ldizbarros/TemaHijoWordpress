@@ -1,0 +1,90 @@
+/*
+ Theme Name:   twenty seventeen Child
+ Theme URI:    http://example.com/Nikko-Portfolio/
+ Description:  twentyseventeen Child Theme
+ Author:       Laura Diz
+ Author URI:   http://example.com
+ Template:     twentyseventeen
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         a-ver-que-pasa
+ Text Domain:  twentyseventeen-child
+*/
+
+@import url("../twentyseventeen/style.css");
+
+/* -------------------------------------------------------------- */
+
+/*HEADER*/
+
+.site-title a {
+  color: #686868;
+}
+
+/*THE LOOP*/
+.site-main h1{
+  color: #686868;
+}
+
+.site-main h3{
+  color: SteelBlue;
+}
+
+.site-main p{
+  color: black;
+}
+
+/*FOOTER*/
+ 
+#footer{
+  background-color: LightSteelBlue;
+}
+
+/*MENU*/
+
+#footer .menu-primary-container{
+   text-align: center;
+}
+
+#footer li{
+  display: inline;
+}
+
+#footer a{
+  color:black;
+  font-weight: bold;
+  padding: 5px;
+  text-transform: uppercase;
+}
+
+/*SINGLE*/
+
+.single h5{
+    color:#6495ED;
+}
+
+.single h1{
+    color:black;
+    font-weight: bold;
+}
+
+.single h2{
+    font-weight: bold;
+}
+
+/*SIDEBAR*/
+
+.widget-area h2{
+    color:black;
+    font-weight: normal;
+    text-decoration: underline;
+}
+
+/*ERROR 404*/
+
+.error404 h5{
+    text-align: center;
+    color:#6495ED;
+    font-weight: bold;
+}
